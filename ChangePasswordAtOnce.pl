@@ -3,9 +3,8 @@
 
 use Net::SSH::Perl;
 
-$user = "matthew";
-$pass = "23242621";
-@IPs=qw/127.0.0.1 192.168.1.104/;
+my ($user, $pass_orig, $pass_new);
+my @IPs;
 #$cmdcat = "cat /etc/redhat-release";
 
 print "now Smoking.....\n";
